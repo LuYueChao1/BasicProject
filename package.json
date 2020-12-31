@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "name": "basicproject",
+  "version": "1.0.0",
+  "description": "竞赛",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "luchao",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  }
+}

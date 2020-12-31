@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+errors.json
+.gitattributes
+.vscode
+sass
+src/test/unit/coverage
+src/page/
+src/vue-business/
