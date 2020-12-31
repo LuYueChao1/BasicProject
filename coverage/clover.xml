@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1609407528972" clover="3.2.0">
-  <project timestamp="1609407528972" name="All files">
-    <metrics statements="30" coveredstatements="30" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5" elements="41" coveredelements="41" complexity="0" loc="30" ncloc="30" packages="1" files="3" classes="3"/>
+<coverage generated="1609408208193" clover="3.2.0">
+  <project timestamp="1609408208193" name="All files">
+    <metrics statements="31" coveredstatements="31" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5" elements="42" coveredelements="42" complexity="0" loc="31" ncloc="31" packages="1" files="3" classes="3"/>
     <file name="openTenTreasureBox.js" path="E:\编程竞赛\JS\BasicProject\main\openTenTreasureBox.js">
-      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
       <line num="10" count="1" type="stmt"/>
       <line num="11" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
-      <line num="13" count="9" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
       <line num="14" count="9" type="stmt"/>
       <line num="15" count="9" type="stmt"/>
       <line num="16" count="9" type="stmt"/>
       <line num="17" count="9" type="stmt"/>
       <line num="18" count="9" type="stmt"/>
+      <line num="19" count="9" type="stmt"/>
     </file>
     <file name="openTreasureBox.js" path="E:\编程竞赛\JS\BasicProject\main\openTreasureBox.js">
       <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="3" count="12" type="stmt"/>
       <line num="4" count="12" type="stmt"/>
-      <line num="5" count="4700126" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="21527231" type="cond" truecount="2" falsecount="0"/>
       <line num="6" count="12" type="stmt"/>
-      <line num="8" count="4700126" type="stmt"/>
+      <line num="8" count="21527231" type="stmt"/>
       <line num="10" count="12" type="stmt"/>
     </file>
     <file name="treasureBox.js" path="E:\编程竞赛\JS\BasicProject\main\treasureBox.js">
@@ -31,15 +32,15 @@
       <line num="4" count="12" type="stmt"/>
       <line num="5" count="12" type="stmt"/>
       <line num="6" count="12" type="stmt"/>
-      <line num="9" count="4700128" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="21527233" type="cond" truecount="2" falsecount="0"/>
       <line num="10" count="1" type="stmt"/>
-      <line num="12" count="4700127" type="stmt"/>
-      <line num="13" count="4700127" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="21527232" type="stmt"/>
+      <line num="13" count="21527232" type="cond" truecount="2" falsecount="0"/>
       <line num="14" count="12" type="stmt"/>
       <line num="15" count="12" type="stmt"/>
       <line num="16" count="12" type="stmt"/>
       <line num="17" count="12" type="stmt"/>
-      <line num="19" count="4700115" type="stmt"/>
+      <line num="19" count="21527220" type="stmt"/>
     </file>
   </project>
 </coverage>

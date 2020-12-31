@@ -9,7 +9,7 @@ class TreasureBox{
         if(this.openStatus){
             return 'this treasureBox has been open'
         }
-        let getHashStr=sha256(this.boxNum+this.timeNum+this.preBoxHashValue+secretNum)
+        let getHashStr=sha256(this.boxNum+this.preBoxHashValue+secretNum)
         if(getHashStr.substr(0,5)==='00000'){
             this.secretNum=secretNum
             this.openStatus=true
