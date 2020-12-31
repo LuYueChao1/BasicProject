@@ -2,7 +2,7 @@ import TreasureBox from './treasureBox'
 import TreasureBoxOpen from './openTreasureBox'
 class TenTreasureBox{
     constructor(){
-        this.firstBox=new TreasureBox(1,'1')
+        this.firstBox=new TreasureBox(1,'0')
         this.treasureBoxList=[]
     }
     getTenOpenedTreasureBox(){
@@ -12,9 +12,9 @@ class TenTreasureBox{
         for(let i=0;i<9;i++){
             let listLength=this.treasureBoxList.length
             let preTreasureBox=this.treasureBoxList[listLength-1]
-            let treasureBox=new TreasureBox(listLength,preTreasureBox.hashStr)
+            let treasureBox=new TreasureBox(listLength+1,preTreasureBox.hashStr)
             treasureBoxOpen.openTheTreasureBox(treasureBox)
-            console.log(treasureBox.hashStr)
+            console.log(treasureBox)
             this.treasureBoxList.push(treasureBox)
         }
     }

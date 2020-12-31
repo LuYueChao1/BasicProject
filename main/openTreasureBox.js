@@ -4,7 +4,6 @@ class TreasureBoxOpen{
         for(let i=0;i>=0;i++){
             if(treasureBox.tryOpenTreasureBox(secretNum)){
                 i=-2
-                console.log(secretNum)
             }
             secretNum++
         }
