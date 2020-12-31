@@ -3,14 +3,22 @@ class TreasureBox{
     constructor(boxNum,preBoxHashValue){
         this.boxNum=boxNum
         this.preBoxHashValue=preBoxHashValue
+        this.openStatus=false
     }
-    openTreasureBox(secretNum){
-        this.timeNum=(new Date()).valueOf()
+    tryOpenTreasureBox(secretNum){
+        if(this.openStatus){
+            return 'this treasureBox has been open'
+        }
         getHashStr=sha256(this.boxNum+this.timeNum+this.preBoxHashValue+secretNum)
-        if(getHashStr.split(0,5)==='00000'){
+        console.log(getHashStr)
+        if(getHashStr.substr(0,5)==='00000'){
+            console.log('............')
+            this.openStatus=true
             return true
         }else{
             return false
         }
     }
 }
+
+export default TreasureBox
